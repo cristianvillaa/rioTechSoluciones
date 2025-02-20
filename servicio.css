@@ -1,0 +1,194 @@
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 0.9em;
+    margin: 5px 0 0;
+}
+
+
+.service img {
+    width: 100px; /* Tamaño del icono */
+    height: 100px; /* Tamaño del icono */
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #edaf51;
+    color: #fef7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fef7f7;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #efedea;
+}
+/* Estilos para la sección de servicios */
+.services {
+    background-color: #fff; /* Blanco para la sección de servicios */
+    padding: 40px;
+    text-align: center; /* Centrar el texto en las secciones */
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff9900; /* Naranja para los títulos de sección */
+}
+
+.service {
+    display: inline-block; /* Mostrar los servicios en línea */
+    width: 30%; /* Ajustar el ancho según la cantidad de servicios */
+    margin: 20px;
+    vertical-align: top; /* Alinear los servicios en la parte superior */
+    padding: 20px;
+    border: 1px solid #eee; /* Borde suave para separar los servicios */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+.service:hover {
+    transform: translateY(-5px); /* Elevar el servicio al pasar el cursor */
+}
+
+.service img {
+    width: 100px; /* Tamaño del icono */
+    height: 100px; /* Tamaño del icono */
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333; /* Gris oscuro para los títulos de servicio */
+}
+
+.service p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666; /* Gris más claro para el texto */
+}
+
+.service ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #666; /* Gris más claro para los ítems de la lista */
+}
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .service {
+    width: 100%;
+    margin: 10px 0;
+    }
+   }
+   
+   /* Estilos para pantallas medianas (tabletas) */
+   @media (min-width: 768px) and (max-width: 991px) {
+    .service {
+    width: 45%;
+     margin: 10px;
+    }
+   }
+   
+   /* Estilos para pantallas grandes (escritorio) */
+   @media (min-width: 992px) {
+    .service {
+    width: 30%;
+   }
+   }
+
+
+   .redes-sociales {
+    display: flex; /* Para que los botones se muestren uno al lado del otro */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior (ajusta según necesites) */
+}
+
+.redes-sociales a {
+    margin: 0 10px; /* Espacio entre los botones */
+}
+
+.redes-sociales img {
+    width: 30px; /* Ancho de los botones */
+    height: 30px; /* Alto de los botones */
+}
+   

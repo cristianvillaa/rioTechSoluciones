@@ -1,0 +1,128 @@
+.contact {
+    background-color: #fff; /* Blanco para la sección de contacto */
+    padding: 40px;
+    text-align: center; /* Centrar el texto en las secciones */
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff9900; /* Naranja para los títulos de sección */
+}
+
+.contact-form {
+    display: flex; /* Mostrar el formulario y la información de contacto en paralelo */
+    align-items: flex-start; /* Alinear verticalmente en la parte superior */
+    max-width: 900px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+.contact form {
+    flex: 1; /* El formulario ocupa la mayor parte del espacio */
+    margin-right: 40px; /* Espacio entre el formulario y la información de contacto */
+}
+
+.contact input,
+.contact textarea {
+    width: 100%; /* Ancho completo para los campos del formulario */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #ff9900; /* Naranja del logo */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+.contact button:hover {
+    background-color: #cc7a00; /* Naranja más oscuro al pasar el cursor */
+}
+
+.contact-info {
+    flex: 1; /* La información de contacto ocupa el espacio restante */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333; /* Gris oscuro para los títulos de información */
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #666; /* Gris más claro para el texto */
+}
+header {
+    background-color: #edaf51;
+    color: #fef7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fef7f7;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #efedea;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .about-us-content {
+        flex-direction: column; /* Diseño en columna en pantallas pequeñas */
+        align-items: center; /* Centrar horizontalmente los elementos */
+    }
+
+    .about-us-content img {
+        width: 80%; /* Ancho de la imagen en pantallas pequeñas */
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
